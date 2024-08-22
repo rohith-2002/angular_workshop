@@ -1,5 +1,5 @@
-<p>student-data works!</p>
-<mat-form-field appearance="outline">
-    <mat-label>Email or Phone</mat-label>
-    <input matInput placeholder="Email">
-</mat-form-field>
+<div class="student_data">
+    <div *ngFor="let data of studentdata | search:SearchText" >
+        <app-data-card [data]="data"></app-data-card>
+    </div>
+</div>
