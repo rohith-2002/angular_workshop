@@ -1,1 +1,9 @@
-<p>data-card works!</p>
+<mat-card>
+    <p>Nmae: {{data.Name}}</p>
+    <p>Email {{data.Email}}</p>
+    <p>City:{{data.city}} State:{{data.state}}</p>
+
+    <p>{{data.pin}} <span style="margin-left: 20px;"><mat-icon (click)="delete(data.id,data.role)">delete</mat-icon></span></p>
+    
+
+</mat-card>
