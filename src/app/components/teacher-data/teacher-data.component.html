@@ -1,1 +1,5 @@
-<p>teacher-data works!</p>
+<div class="teacher_data">
+    <div *ngFor="let data of teacherdata | search:SearchText">
+        <app-data-card [data]="data"></app-data-card>
+    </div>
+</div>
