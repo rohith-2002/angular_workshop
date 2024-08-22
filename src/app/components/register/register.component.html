@@ -1,1 +1,67 @@
-<p>register works!</p>
+<mat-card appearance="outlined" class="register_widget">
+    <mat-card-content>
+       
+            <div class="reg_wdt">
+                <h2>Please enter the details</h2>
+                <form [formGroup]="regdata">
+                    <div class="role_sel">
+                        <mat-radio-group aria-label="Select an option" formControlName="role">
+                            <mat-label>Select Role</mat-label>
+                            <mat-radio-button value="teacher" >Teacher</mat-radio-button>
+                            <mat-radio-button value="student"  >Student</mat-radio-button>
+                          </mat-radio-group>
+                    </div>
+                    <div>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Name</mat-label>
+                        <input matInput placeholder="Name" formControlName="Name">              
+                      </mat-form-field>
+                    </div>
+               
+                    <div>
+                      <mat-form-field appearance="outline">
+                        <mat-label>Email</mat-label>
+                        <input matInput placeholder="Email" formControlName="Email">              
+                      </mat-form-field>
+                    </div>
+                    <div class="address">
+                        <table class="example-full-width" cellspacing="0"><tr>
+                            <td><mat-form-field class="example-full-width">
+                              <mat-label>City</mat-label>
+                              <input matInput placeholder="Ex. San Francisco" formControlName="city">
+                            </mat-form-field></td>
+                            <td><mat-form-field class="example-full-width">
+                              <mat-label>State</mat-label>
+                              <input matInput placeholder="Ex. California" formControlName="state">
+                            </mat-form-field></td>
+                            
+                          </tr>
+                          <tr>
+                            <td>
+                                <mat-form-field class="example-full-width">
+                                <mat-label>Postal Code</mat-label>
+                                <input matInput #postalCode maxlength="6" placeholder="Ex. 94105" formControlName="pin">
+                                <mat-hint align="end">{{postalCode.value.length}} / 6</mat-hint>
+                              </mat-form-field>
+                            </td>
+                            <td>
+                                <div class="" style="display: flex; width: 200px;justify-content: end; text-align: center; font-weight: 400; margin-bottom: 30px; margin-right: 15px;">
+                                    <a
+                                      style="width: 150px; height: 40px; border-radius: 30px; background-color: #0b57d0; box-shadow: none; color: white; align-content: center;text-decoration: none;" (click)="handelRegister()">
+                                      <!-- <mat-icon>favorit</mat-icon> -->
+                                      <span style="color: #ffffff;">Register</span>
+                                
+                                    </a>
+                                  </div>
+                            </td>
+                          </tr>
+                        
+                        </table>
+                    </div>
+        
+                </form>
+            </div>
+        
+        
+    </mat-card-content>
+  </mat-card>
