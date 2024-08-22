@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup,Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { HttpService } from 'src/app/services/http.service';
+import { HttpService } from '../../services/http.service';
 
 @Component({
   selector: 'app-register',
@@ -32,14 +32,14 @@ export class RegisterComponent {
       this.httpservice.poststudentdata(this.regdata.value).subscribe(()=>{
         next:()=>{console.log("success");}
         console.log("success");
-        this.router.navigate(['/dashboard']);
+        this.router.navigate(['/dashboard/student']);
       })
     }
     if(type=="teacher"){
       this.httpservice.postteacherdata(this.regdata.value).subscribe(()=>{
         next:()=>{console.log("success");}
         console.log("success");
-        this.router.navigate(['/dashboard']);
+        this.router.navigate(['/dashboard/student']);
       })
     }
     

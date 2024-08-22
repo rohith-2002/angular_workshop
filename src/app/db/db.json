@@ -1,18 +1,52 @@
 {
   "students": [
-    {},
     {
-      "id": "a7fb",
-      "Name": "rohith",
-      "Email": "rohith.gundu@godigit.com",
+      "id": "8358b",
+      "Name": "harsha",
+      "Email": "harsha@hotmail.com",
+      "role": "student",
+      "city": "del",
+      "state": "del",
+      "pin": "345698"
+    },
+    {
+      "id": "3578b",
+      "Name": "hanuman",
+      "Email": "hanuman@test.com",
+      "role": "student",
+      "city": "hyd",
+      "state": "tel",
+      "pin": "345698"
+    },
+    {
+      "id": "3258b",
+      "Name": "sai",
+      "Email": "sai@sai.com",
+      "role": "student",
+      "city": "vsk",
+      "state": "ap",
+      "pin": "345698"
+    },
+    {
+      "id": "86fs9",
+      "Name": "kiran",
+      "Email": "kiran@mail.com",
       "role": "student",
       "city": "blr",
       "state": "kar",
-      "pin": "123456"
+      "pin": "345698"
+    },
+    {
+      "id": "75fd",
+      "Name": "ishu",
+      "Email": "ishu@issues.com",
+      "role": "student",
+      "city": "jhansi",
+      "state": "MP",
+      "pin": "926497"
     }
   ],
   "teachers": [
-    {},
     {
       "id": "358b",
       "Name": "rohith",
@@ -21,6 +55,105 @@
       "city": "blr",
       "state": "kar",
       "pin": "123456"
+    },
+    {
+      "id": "7854h8",
+      "Name": "harsitha",
+      "Email": "harshita@hotmail.com",
+      "role": "teacher",
+      "city": "del",
+      "state": "del",
+      "pin": "345698"
+    },
+    {
+      "id": "Vq1b2G",
+      "Name": "Xar8Go0C",
+      "Email": "xar8go0c@hotmail.com",
+      "role": "teacher",
+      "city": "del",
+      "state": "ts",
+      "pin": "199980"
+    },
+    {
+      "id": "NcblQJ",
+      "Name": "8960ziof",
+      "Email": "8960ziof@yahoo.com",
+      "role": "student",
+      "city": "mum",
+      "state": "ka",
+      "pin": "234388"
+    },
+    {
+      "id": "g0iXLQ",
+      "Name": "V2arjHO3",
+      "Email": "v2arjho3@yahoo.com",
+      "role": "admin",
+      "city": "hyd",
+      "state": "ka",
+      "pin": "339066"
+    },
+    {
+      "id": "3BoXz8",
+      "Name": "7zFMhLpa",
+      "Email": "7zfmhlpa@gmail.com",
+      "role": "teacher",
+      "city": "del",
+      "state": "del",
+      "pin": "338177"
+    },
+    {
+      "id": "T49ZXt",
+      "Name": "PJZGB0tb",
+      "Email": "pjzgb0tb@gmail.com",
+      "role": "student",
+      "city": "blr",
+      "state": "mh",
+      "pin": "330699"
+    },
+    {
+      "id": "I7FdBs",
+      "Name": "lpZEEZis",
+      "Email": "lpzeezis@hotmail.com",
+      "role": "admin",
+      "city": "mum",
+      "state": "ts",
+      "pin": "052157"
+    },
+    {
+      "id": "E4iuwm",
+      "Name": "urvRIDDv",
+      "Email": "urvriddv@gmail.com",
+      "role": "student",
+      "city": "mum",
+      "state": "mh",
+      "pin": "779108"
+    },
+    {
+      "id": "IJ990B",
+      "Name": "rEig3pq9",
+      "Email": "reig3pq9@hotmail.com",
+      "role": "teacher",
+      "city": "mum",
+      "state": "del",
+      "pin": "984516"
+    },
+    {
+      "id": "m6v6HQ",
+      "Name": "etz2Qp1a",
+      "Email": "etz2qp1a@yahoo.com",
+      "role": "admin",
+      "city": "mum",
+      "state": "ts",
+      "pin": "576779"
+    },
+    {
+      "id": "ZkyVQy",
+      "Name": "MbrWdouj",
+      "Email": "mbrwdouj@yahoo.com",
+      "role": "admin",
+      "city": "hyd",
+      "state": "mh",
+      "pin": "321149"
     }
   ]
 }

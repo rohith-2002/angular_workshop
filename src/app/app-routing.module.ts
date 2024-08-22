@@ -9,7 +9,16 @@ const routes: Routes = [
      component:RegisterComponent
   },{
     path:'dashboard',
-  component:DashboardComponent
+    component:DashboardComponent,
+    children:[
+      {
+        path:'student',
+        component:DashboardComponent
+      },{
+        path:'teacher',
+        component:DashboardComponent
+      }
+    ]
   }
 ];
 
