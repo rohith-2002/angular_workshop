@@ -1,0 +1,26 @@
+{
+  "students": [
+    {},
+    {
+      "id": "a7fb",
+      "Name": "rohith",
+      "Email": "rohith.gundu@godigit.com",
+      "role": "student",
+      "city": "blr",
+      "state": "kar",
+      "pin": "123456"
+    }
+  ],
+  "teachers": [
+    {},
+    {
+      "id": "358b",
+      "Name": "rohith",
+      "Email": "rohith.gundu@godigit.com",
+      "role": "teacher",
+      "city": "blr",
+      "state": "kar",
+      "pin": "123456"
+    }
+  ]
+}

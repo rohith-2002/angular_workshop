@@ -8,6 +8,11 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { DataCardComponent } from './components/data-card/data-card.component';
 import { StudentDataComponent } from './components/student-data/student-data.component';
 import { TeacherDataComponent } from './components/teacher-data/teacher-data.component';
+import { MaterialModule } from './Material/material.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,11 +21,18 @@ import { TeacherDataComponent } from './components/teacher-data/teacher-data.com
     DashboardComponent,
     DataCardComponent,
     StudentDataComponent,
-    TeacherDataComponent
+    TeacherDataComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+    FormsModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
