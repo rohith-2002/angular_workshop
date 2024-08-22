@@ -1,0 +1,23 @@
+<mat-toolbar>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Data Dashboard</span>
+    <div>
+        <div class="search">
+            
+            <input matInput placeholder="Search for data..." [(ngModel)]="SearchText" (ngModelChange)="onsearch()" class="search_b">
+        </div> 
+    </div>
+    <div>
+        <span  [routerLink]="['/dashboard/teacher']" class="nav_btn">teacher</span>
+        <span  [routerLink]="['/dashboard/student']" class="nav_btn">student</span>
+    </div>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
