@@ -23,8 +23,6 @@ export class StudentDataComponent {
       this.dataservice.currenttext.subscribe((message) => {
         this.SearchText =message ;
   });
-
-
   }
 
 

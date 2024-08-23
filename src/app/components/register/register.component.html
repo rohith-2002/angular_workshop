@@ -25,38 +25,44 @@
                       </mat-form-field>
                     </div>
                     <div class="address">
-                        <table class="example-full-width" cellspacing="0"><tr>
-                            <td><mat-form-field class="example-full-width">
+                      <div>
+                        <div class="example-full-width input-row" cellspacing="0" >
+                          <div>
+                            <mat-form-field class="example-full-width">
                               <mat-label>City</mat-label>
                               <input matInput placeholder="Ex. San Francisco" formControlName="city">
-                            </mat-form-field></td>
-                            <td><mat-form-field class="example-full-width">
+                            </mat-form-field>
+                          </div>
+                          <div>
+                            <mat-form-field class="example-full-width">
                               <mat-label>State</mat-label>
                               <input matInput placeholder="Ex. California" formControlName="state">
-                            </mat-form-field></td>
-                            
-                          </tr>
-                          <tr>
-                            <td>
-                                <mat-form-field class="example-full-width">
-                                <mat-label>Postal Code</mat-label>
-                                <input matInput #postalCode maxlength="6" placeholder="Ex. 94105" formControlName="pin">
-                                <mat-hint align="end">{{postalCode.value.length}} / 6</mat-hint>
-                              </mat-form-field>
-                            </td>
-                            <td>
-                                <div class="" style="display: flex; width: 200px;justify-content: end; text-align: center; font-weight: 400; margin-bottom: 30px; margin-right: 15px;">
-                                    <a
-                                      style="width: 150px; height: 40px; border-radius: 30px; background-color: #0b57d0; box-shadow: none; color: white; align-content: center;text-decoration: none;" (click)="handelRegister()">
-                                      <!-- <mat-icon>favorit</mat-icon> -->
-                                      <span style="color: #ffffff;">Register</span>
-                                
-                                    </a>
-                                  </div>
-                            </td>
-                          </tr>
-                        
-                        </table>
+                            </mat-form-field>
+                          </div>
+                         </div>
+                         <div class="input-row">
+                          <div>
+                            <mat-form-field class="example-full-width">
+                              <mat-label>Postal Code</mat-label>
+                              <input matInput #postalCode maxlength="6" placeholder="Ex. 94105" formControlName="pin">
+                              <mat-hint align="end">{{postalCode.value.length}} / 6</mat-hint>
+                            </mat-form-field>
+                          </div>
+                          <div>
+                            <div class="" style="display: flex; width: 200px;justify-content: end; text-align: center; font-weight: 400; margin-bottom: 30px; margin-right: 15px;">
+                              <a
+                                style="width: 150px; height: 40px; border-radius: 30px; background-color: #0b57d0; box-shadow: none; color: white; align-content: center;text-decoration: none;" (click)="handelRegister()">
+                                <!-- <mat-icon>favorit</mat-icon> -->
+                                <span style="color: #ffffff;">Register</span>
+                          
+                              </a>
+                            </div>  
+                          </div>
+                         </div>
+                    
+                      </div>
+                         
+                    
                     </div>
         
                 </form>

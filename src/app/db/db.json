@@ -19,15 +19,6 @@
       "pin": "345698"
     },
     {
-      "id": "75fd",
-      "Name": "ishu",
-      "Email": "ishu@issues.com",
-      "role": "student",
-      "city": "jhansi",
-      "state": "MP",
-      "pin": "926497"
-    },
-    {
       "id": "862d",
       "Name": "mitesh",
       "Email": "mitesh@mail.com",
@@ -46,33 +37,6 @@
       "city": "blr",
       "state": "kar",
       "pin": "123456"
-    },
-    {
-      "id": "7854h8",
-      "Name": "harsitha",
-      "Email": "harshita@hotmail.com",
-      "role": "teacher",
-      "city": "del",
-      "state": "del",
-      "pin": "345698"
-    },
-    {
-      "id": "Vq1b2G",
-      "Name": "Xar8Go0C",
-      "Email": "xar8go0c@hotmail.com",
-      "role": "teacher",
-      "city": "del",
-      "state": "ts",
-      "pin": "199980"
-    },
-    {
-      "id": "NcblQJ",
-      "Name": "8960ziof",
-      "Email": "8960ziof@yahoo.com",
-      "role": "teacher",
-      "city": "mum",
-      "state": "ka",
-      "pin": "234388"
     },
     {
       "id": "3BoXz8",
@@ -136,6 +100,24 @@
       "city": "hyd",
       "state": "mh",
       "pin": "321149"
+    },
+    {
+      "id": "af4b",
+      "Name": "rohith",
+      "Email": "rohith.gundu@godigit.com",
+      "role": "teacher",
+      "city": "blr",
+      "state": "kar",
+      "pin": "123456"
+    },
+    {
+      "id": "a794",
+      "Name": "mitesh",
+      "Email": "mitesh@mail.com",
+      "role": "teacher",
+      "city": "trivandram",
+      "state": "kerala",
+      "pin": "874528"
     }
   ]
 }

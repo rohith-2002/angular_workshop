@@ -1,60 +1,93 @@
 .example-spacer {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+body {
+  background-color: #d7e3ff;
+}
+
+mat-toolbar {
+  background-color: #d7e3ff;
+  color: #005cbb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_btn {
+  background-color: none;
+  color: #005cbb;
+  font-weight: 400;
+  font-size: smaller;
+  cursor: pointer;
+  margin-left: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+.search {
+  background-color: #b9c4dc;
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 350px;
+  height: 40px;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.search_b {
+  background-color: #adbcdf;
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 300px;
+}
+
+.nav_btn:hover {
+  background-color: #95a8d5;
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .search {
+    width: 100%;
+    margin-left: 0;
   }
 
-  body{
-    background-color:#d7e3ff;;
+  .search_b {
+    width: 100%;
   }
 
-  mat-toolbar{
-    background-color: #d7e3ff;;
-    color: #005cbb;
+  .nav_btn {
+    display: none;
   }
 
-  .nav_btn{
-    background-color: none;
-    color: #005cbb;
-    font-weight: 400;
-    font-size: smaller;
-    cursor: pointer;
-    margin-left: 20px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+  .menu-button {
+    display: inline-block;
   }
- 
- mat-icon{
-     
-   }
-   .search{
-    background-color: #b9c4dc;
-    border-radius: 25px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 350px;
-    height: 40px;
-    align-items: center;
-    margin-left: 200px;
-   }  
+}
 
-
-  .search_b{
-    background-color: #adbcdf;
-    border-radius: 25px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 300px;
+@media (min-width: 769px) {
+  .nav_btn {
+    display: inline-block;
   }
 
-  .nav_btn:hover{
-    background-color: #95a8d5;
-    border-radius: 25px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    
-
-   
+  .menu-button {
+    display: none;
   }
+}

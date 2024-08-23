@@ -1,34 +1,130 @@
 .mat-mdc-radio-button ~ .mat-mdc-radio-button {
     margin-left: 16px;
   }
-
-.reg_wdt{
+  
+  .reg_wdt {
     padding-left: 200px;
-}
-.register_widget{
+  }
+  
+  .register_widget {
     display: block;
-max-width: 750px;
-margin-top: 200px;
-margin-left:200px;
-margin-right: 200px;
-}
-
-mat-form-field{
-width:350px;
-
-}
-mat-radio-button {
+    max-width: 750px;
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  mat-form-field {
+    width: 350px;
+  }
+  
+  mat-radio-button {
     margin-right: 10px;
     margin-left: 10px;
-}
-.address .mat-form-field{
+  }
+  
+  .address .mat-form-field {
     width: 100%;
-}
-
-.role_sel{
+  }
+  
+  .role_sel {
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 8px;
     width: 330px;
     margin-bottom: 10px;
+  }
+
+.input-row{
+    display: flex;
+   
 }
+
+  .register_btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+  /* Responsive styles */
+  @media (max-width: 1200px) {
+    .reg_wdt {
+      padding-left: 150px;
+    }
+  
+    .register_widget {
+      max-width: 600px;
+      margin-left: 150px;
+      margin-right: 150px;
+    }
+  
+    mat-form-field {
+      width: 300px;
+    }
+  
+    .role_sel {
+      width: 300px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .reg_wdt {
+      padding-left: 100px;
+    }
+  
+    .register_widget {
+      max-width: 500px;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  
+    mat-form-field {
+      width: 250px;
+    }
+  
+    .role_sel {
+      width: 250px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .reg_wdt {
+      padding-left: 50px;
+    }
+  
+    .register_widget {
+      max-width: 100%;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  
+    mat-form-field {
+      width: 100%;
+    }
+  
+    .role_sel {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .reg_wdt {
+      padding-left: 20px;
+    }
+  
+    .register_widget {
+      max-width: 100%;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    mat-form-field {
+      width: 100%;
+    }
+  
+    .role_sel {
+      width: 100%;
+    }
+    .input-row{
+        display: block;
+    }
+  }

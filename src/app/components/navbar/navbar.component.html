@@ -1,23 +1,23 @@
 <mat-toolbar>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-      <mat-icon>menu</mat-icon>
-    </button>
-    <span>Data Dashboard</span>
-    <div>
-        <div class="search">
-            
-            <input matInput placeholder="Search for data..." [(ngModel)]="SearchText" (ngModelChange)="onsearch()" class="search_b">
-        </div> 
-    </div>
-    <div>
-        <span  [routerLink]="['/dashboard/teacher']" class="nav_btn">teacher</span>
-        <span  [routerLink]="['/dashboard/student']" class="nav_btn">student</span>
-    </div>
-    <span class="example-spacer"></span>
-    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-      <mat-icon>favorite</mat-icon>
-    </button>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-      <mat-icon>share</mat-icon>
-    </button>
-  </mat-toolbar>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" (click)="menuTrigger.openMenu()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Data Dashboard</span>
+  <div class="search">
+    <input matInput placeholder="Search for data..." [(ngModel)]="SearchText" (ngModelChange)="onsearch()" class="search_b">
+  </div>
+  <span class="example-spacer"></span>
+  <div class="nav-buttons">
+    <button mat-button class="nav_btn" [routerLink]="['/dashboard/teacher']">Teacher</button>
+    <button mat-button class="nav_btn" [routerLink]="['/dashboard/student']">Student</button>
+    <button mat-button class="nav_btn" [routerLink]="['']">Register</button>
+  </div>
+  <button mat-icon-button [matMenuTriggerFor]="menu" #menuTrigger="matMenuTrigger" class="menu-button">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item [routerLink]="['/dashboard/teacher']">Teacher</button>
+    <button mat-menu-item [routerLink]="['/dashboard/student']">Student</button>
+    <button mat-menu-item [routerLink]="['']">Register</button>
+  </mat-menu>
+</mat-toolbar>
