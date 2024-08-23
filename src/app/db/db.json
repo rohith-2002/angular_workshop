@@ -19,24 +19,6 @@
       "pin": "345698"
     },
     {
-      "id": "3258b",
-      "Name": "sai",
-      "Email": "sai@sai.com",
-      "role": "student",
-      "city": "vsk",
-      "state": "ap",
-      "pin": "345698"
-    },
-    {
-      "id": "86fs9",
-      "Name": "kiran",
-      "Email": "kiran@mail.com",
-      "role": "student",
-      "city": "blr",
-      "state": "kar",
-      "pin": "345698"
-    },
-    {
       "id": "75fd",
       "Name": "ishu",
       "Email": "ishu@issues.com",
@@ -44,6 +26,15 @@
       "city": "jhansi",
       "state": "MP",
       "pin": "926497"
+    },
+    {
+      "id": "862d",
+      "Name": "mitesh",
+      "Email": "mitesh@mail.com",
+      "role": "student",
+      "city": "trivandram",
+      "state": "kerala",
+      "pin": "874528"
     }
   ],
   "teachers": [
@@ -78,19 +69,10 @@
       "id": "NcblQJ",
       "Name": "8960ziof",
       "Email": "8960ziof@yahoo.com",
-      "role": "student",
+      "role": "teacher",
       "city": "mum",
       "state": "ka",
       "pin": "234388"
-    },
-    {
-      "id": "g0iXLQ",
-      "Name": "V2arjHO3",
-      "Email": "v2arjho3@yahoo.com",
-      "role": "admin",
-      "city": "hyd",
-      "state": "ka",
-      "pin": "339066"
     },
     {
       "id": "3BoXz8",
@@ -105,7 +87,7 @@
       "id": "T49ZXt",
       "Name": "PJZGB0tb",
       "Email": "pjzgb0tb@gmail.com",
-      "role": "student",
+      "role": "teacher",
       "city": "blr",
       "state": "mh",
       "pin": "330699"
@@ -114,7 +96,7 @@
       "id": "I7FdBs",
       "Name": "lpZEEZis",
       "Email": "lpzeezis@hotmail.com",
-      "role": "admin",
+      "role": "teacher",
       "city": "mum",
       "state": "ts",
       "pin": "052157"
@@ -123,7 +105,7 @@
       "id": "E4iuwm",
       "Name": "urvRIDDv",
       "Email": "urvriddv@gmail.com",
-      "role": "student",
+      "role": "teacher",
       "city": "mum",
       "state": "mh",
       "pin": "779108"
@@ -141,7 +123,7 @@
       "id": "m6v6HQ",
       "Name": "etz2Qp1a",
       "Email": "etz2qp1a@yahoo.com",
-      "role": "admin",
+      "role": "teacher",
       "city": "mum",
       "state": "ts",
       "pin": "576779"
@@ -150,7 +132,7 @@
       "id": "ZkyVQy",
       "Name": "MbrWdouj",
       "Email": "mbrwdouj@yahoo.com",
-      "role": "admin",
+      "role": "teacher",
       "city": "hyd",
       "state": "mh",
       "pin": "321149"

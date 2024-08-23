@@ -26,6 +26,18 @@ export class DataCardComponent {
        });
      }
 
+     if(type=="teacher"){
+      this.httpservice.deleteteacherdata(id).subscribe({
+       next:(res:any)=>{
+         console.log(res);
+         console.log("deleted successfully `${id}` ");
+         window.location.reload();
+       },error:(err:any)=>{
+         console.log(err);
+       }
+      });
+    }
+
     
 
 
